@@ -461,6 +461,10 @@ Blockly.Block.prototype.dispose = function(healStack, animate,
   }
   // Remove any associated errors or warnings.
   Blockly.WarningHandler.checkDisposedBlock.call(this);
+
+  // Update Layerbox
+  if(Blockly.haslayerbox) Blockly.LayerBoxUpdate();
+
 };
 
 /**
