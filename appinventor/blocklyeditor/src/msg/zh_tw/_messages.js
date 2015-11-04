@@ -1292,24 +1292,40 @@ Blockly.Msg.zh_tw.switch_language_to_chinese_tw = {
     Blockly.Msg.CONNECT_TO_DO_IT = '你必須要連接AIAI Companion或者模擬器才能使用"實現功能"';
   
 // Layer: block.js
-    Blockly.Msg.LayerAdd = "加入貨架"
-    Blockly.Msg.SortByLayer = "貨架排序" 
-    Blockly.Msg.ShowLayer = "顯示貨架"
-    Blockly.Msg.ShowLayerwithother = "顯示其餘貨架"
-    Blockly.Msg.ShowLayerBox = "顯示貨架工具箱"
-    Blockly.Msg.LayerDefaultNamePrefix = "貨架"
-    Blockly.Msg.EnterLayerLabelPrompt = "請輸入貨架名稱"
-    Blockly.Msg.ChangeLayerLabelPrompt = "請輸入新貨架名稱"
+    Blockly.Msg.LayerAdd = "加入書架"
+    Blockly.Msg.SortByLayer = "書架排序" 
+    Blockly.Msg.ShowLayer = "顯示書架"
+    Blockly.Msg.ShowLayerwithother = "顯示其餘書架"
+    Blockly.Msg.ShowLayerBox = "顯示書架工具箱"
+    Blockly.Msg.LayerDefaultNamePrefix = "書架"
+    Blockly.Msg.EnterLayerLabelPrompt = "請輸入書架名稱"
+    Blockly.Msg.ChangeLayerLabelPrompt = "請輸入新書架名稱"
     //Blockly.Msg.SortByLayer = "Sort by Rack"
-    Blockly.Msg.LayerBox = "貨架工具箱"
-    Blockly.Msg.LayerBoxOther = "其他" 
-    Blockly.Msg.LayerBoxSBL = "貨架排序"
+    Blockly.Msg.LayerBox = "書架工具箱"
+    Blockly.Msg.LayerBoxOther = "顯示全部" 
+    Blockly.Msg.LayerBoxSBL = "書架排序"
     Blockly.Msg.LayerBoxSBC = "類別排序"
     Blockly.Msg.LayerCommentClose = '關閉'
     Blockly.Msg.LayerCommentUpdate = '輸入註解'
-    Blockly.Msg.LayerCommentTitle = "貨架註解"
+    Blockly.Msg.LayerCommentTitle = "書架註解"
     Blockly.Msg.LayerCommentPrompt = "請輸入註解"
-    Blockly.Msg.DeleteLayerPrompt = "刪除貨架: "
+    Blockly.Msg.DeleteLayerPrompt = "刪除書架: "
+
+    // LayberBox: hints
+    Blockly.Msg.LayerBoxMinimise = "縮小書架工具箱"
+    Blockly.Msg.LayerImport = "匯入書架"
+    Blockly.Msg.LayerExport = '匯出書架'
+
+    Blockly.Msg.LayerShowOrHide = '顯示/隱藏書架'
+    Blockly.Msg.LayerDuplicate ='複製書架'
+    Blockly.Msg.LayerEnableOrNot = '功能開啟/關閉'
+    Blockly.Msg.LayerCollapeOrNot = '縮小/展開書架'
+    Blockly.Msg.LayerCommentButton = '新增註解'
+    Blockly.Msg.LayerDeleteButton = '刪除書架'
+
+    Blockly.Msg.LayerBlockShow = '顯示全部'
+    Blockly.Msg.LayerSortByLabel = '以書架名稱排序'
+    //Blockly.Msg.LayerSortByCategory = Blockly.Msg.SORT_C
   }
 };
 

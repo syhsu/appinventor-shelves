@@ -1313,24 +1313,41 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.CAN_NOT_DO_IT = "Cannot Do it";
     Blockly.Msg.CONNECT_TO_DO_IT = 'You must be connected to the companion or emulator to use "Do It"';
 // Layer: block.js
-    Blockly.Msg.LayerAdd = "Add to Rack" 
-    Blockly.Msg.SortByLayer = "Sort By Rack" 
-    Blockly.Msg.ShowLayer = "Show Rack"
-    Blockly.Msg.ShowLayerwithother = "ShowRackwithother"
-    Blockly.Msg.ShowLayerBox = "Show RackBox"
-    Blockly.Msg.LayerDefaultNamePrefix = "Rack"
+    Blockly.Msg.LayerAdd = "Add to Shelf" 
+    Blockly.Msg.SortByLayer = "Sort By Shelf" 
+    Blockly.Msg.ShowLayer = "Show Shelves"
+    Blockly.Msg.ShowLayerwithother = "ShowShelfwithother"
+    Blockly.Msg.ShowLayerBox = "Show ShelfBox"
+    Blockly.Msg.LayerDefaultNamePrefix = "Shelf"
     Blockly.Msg.EnterLayerLabelPrompt = "Please enter the label"
     Blockly.Msg.ChangeLayerLabelPrompt = "Enter the new label"
     // LayerBox: layer.js
-    Blockly.Msg.LayerBox = "RackBox"  
-    Blockly.Msg.LayerBoxOther = "other" 
-    Blockly.Msg.LayerBoxSBL = "SBR"
-    Blockly.Msg.LayerBoxSBC = "SBC"
+    Blockly.Msg.LayerBox = "ShelfBox"  
+    Blockly.Msg.LayerBoxOther = "Show All" 
+    Blockly.Msg.LayerBoxSBL = "Sort by Shelves"
+    Blockly.Msg.LayerBoxSBC = "Sort by Category"
     Blockly.Msg.LayerCommentClose = 'Close'
     Blockly.Msg.LayerCommentUpdate = 'Update'
     Blockly.Msg.LayerCommentTitle = "Comments"
     Blockly.Msg.LayerCommentPrompt = "Please enter Comments"
-    Blockly.Msg.DeleteLayerPrompt = "DELETE Rack: "
+    Blockly.Msg.DeleteLayerPrompt = "DELETE Shelf:"
+
+    // LayberBox: hints
+    Blockly.Msg.LayerBoxMinimise = "Minimize ShelfBox"
+    Blockly.Msg.LayerImport = "Import a Shelf"
+    Blockly.Msg.LayerExport = 'Export a Shelf'
+
+    Blockly.Msg.LayerShowOrHide = 'Show/Hide the shelf'
+    Blockly.Msg.LayerDuplicate ='Duplicate the shelf'
+    Blockly.Msg.LayerEnableOrNot = 'Enable/Disable the shelf'
+    Blockly.Msg.LayerCollapeOrNot = 'Collapse/Expand the shelf'
+    Blockly.Msg.LayerCommentButton = 'Add Comment'
+    Blockly.Msg.LayerDeleteButton = 'Delete the shelf'
+
+    Blockly.Msg.LayerBlockShow = 'Show All'
+    Blockly.Msg.LayerSortByLabel = 'Sort By Shelf Labels'
+    //Blockly.Msg.LayerSortByCategory = Blockly.Msg.SORT_C
+
 
   }
 };
